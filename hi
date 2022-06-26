@@ -1,0 +1,711 @@
+-- Template is made by $Krew AKA @e.#3642 and est#4113
+
+-- join my discord: https://discord.gg/JPTv7JkG8g
+
+-- scripts arent mine
+
+local KrewTemplate = Instance.new("ScreenGui")
+
+local KrewTempOpen = Instance.new("Frame")
+
+local Name = Instance.new("TextLabel")
+
+local Line = Instance.new("TextLabel")
+
+local ScrollingFrame = Instance.new("ScrollingFrame")
+
+local UICorner = Instance.new("UICorner")
+
+local Function1 = Instance.new("TextButton")
+
+local UICorner_2 = Instance.new("UICorner")
+
+local Function2 = Instance.new("TextButton")
+
+local UICorner_3 = Instance.new("UICorner")
+
+local Function3 = Instance.new("TextButton")
+
+local UICorner_4 = Instance.new("UICorner")
+
+local Function4 = Instance.new("TextButton")
+
+local UICorner_5 = Instance.new("UICorner")
+
+local Function5 = Instance.new("TextButton")
+
+local UICorner_6 = Instance.new("UICorner")
+
+local Function6 = Instance.new("TextButton")
+
+local UICorner_7 = Instance.new("UICorner")
+
+local Function7 = Instance.new("TextButton")
+
+local UICorner_8 = Instance.new("UICorner")
+
+local Function8 = Instance.new("TextButton")
+
+local UICorner_9 = Instance.new("UICorner")
+
+local Function9 = Instance.new("TextButton")
+
+local UICorner_10 = Instance.new("UICorner")
+
+local Function10 = Instance.new("TextButton")
+
+local UICorner_11 = Instance.new("UICorner")
+
+local CredsDontRemove = Instance.new("TextLabel")
+
+local Close = Instance.new("TextButton")
+
+local TempByKrew = Instance.new("Frame")
+
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+KrewTemplate.Name = "$KrewTemplate"
+
+KrewTemplate.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+KrewTemplate.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+KrewTempOpen.Name = "$KrewTempOpen"
+
+KrewTempOpen.Parent = KrewTemplate
+
+KrewTempOpen.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+KrewTempOpen.BorderColor3 = Color3.fromRGB(60, 60, 60)
+
+KrewTempOpen.Position = UDim2.new(0.248681813, 0, 0.245463297, 0)
+
+KrewTempOpen.Size = UDim2.new(0.533831894, 0, 0.506991863, 0)
+
+Name.Name = "Name"
+
+Name.Parent = KrewTempOpen
+
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Name.BackgroundTransparency = 1.000
+
+Name.Size = UDim2.new(0.245568082, 0, 0.0833867863, 0)
+
+Name.Font = Enum.Font.SourceSans
+
+Name.Text = "GuiNameHere" -- put the gui name here
+
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Name.TextSize = 16.000
+
+Line.Name = "Line"
+
+Line.Parent = KrewTempOpen
+
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Line.BackgroundTransparency = 1.000
+
+Line.Position = UDim2.new(0.0978987217, 0, 0.0416933969, 0)
+
+Line.Size = UDim2.new(0.0476846658, 0, 0.0833867863, 0)
+
+Line.Font = Enum.Font.SourceSans
+
+Line.Text = "━━━━━━━━━━━" -- change if u dont want questionmarks
+
+Line.TextColor3 = Color3.fromRGB(30, 30, 30)
+
+Line.TextSize = 14.000
+
+ScrollingFrame.Parent = KrewTempOpen
+
+ScrollingFrame.Active = true
+
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+
+ScrollingFrame.BackgroundTransparency = 0.900
+
+ScrollingFrame.BorderColor3 = Color3.fromRGB(60, 60, 60)
+
+ScrollingFrame.Position = UDim2.new(0.0450695045, 0, 0.253367454, 0)
+
+ScrollingFrame.Size = UDim2.new(0.928037941, 0, 0.683130264, 0)
+
+UICorner.Parent = ScrollingFrame
+
+Function1.Name = "Function1"
+
+Function1.Parent = ScrollingFrame
+
+Function1.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function1.Position = UDim2.new(0.0397513807, 0, 0.0140820052, 0)
+
+Function1.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function1.Font = Enum.Font.SourceSans
+
+Function1.Text = "Function1" -- function one (attack and shit)
+
+Function1.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function1.TextSize = 14.000
+
+Function1.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_2.Parent = Function1
+
+Function2.Name = "Function2"
+
+Function2.Parent = ScrollingFrame
+
+Function2.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function2.Position = UDim2.new(0.0397513807, 0, 0.103883162, 0)
+
+Function2.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function2.Font = Enum.Font.SourceSans
+
+Function2.Text = "Function2" -- function 2 (attack and shit)
+
+Function2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function2.TextSize = 14.000
+
+Function2.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_3.Parent = Function2
+
+Function3.Name = "Function3"
+
+Function3.Parent = ScrollingFrame
+
+Function3.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function3.Position = UDim2.new(0.0397513807, 0, 0.195287913, 0)
+
+Function3.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function3.Font = Enum.Font.SourceSans
+
+Function3.Text = "Function3" -- function 3 (attack and shit)
+
+Function3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function3.TextSize = 14.000
+
+Function3.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_4.Parent = Function3
+
+Function4.Name = "Function4"
+
+Function4.Parent = ScrollingFrame
+
+Function4.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function4.Position = UDim2.new(0.0397513807, 0, 0.283485472, 0)
+
+Function4.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function4.Font = Enum.Font.SourceSans
+
+Function4.Text = "Function4" -- function 4 (attack and shit)
+
+Function4.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function4.TextSize = 14.000
+
+Function4.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_5.Parent = Function4
+
+Function5.Name = "Function5"
+
+Function5.Parent = ScrollingFrame
+
+Function5.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function5.Position = UDim2.new(0.0397513807, 0, 0.376493812, 0)
+
+Function5.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function5.Font = Enum.Font.SourceSans
+
+Function5.Text = "Function5" -- 5
+
+Function5.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function5.TextSize = 14.000
+
+Function5.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_6.Parent = Function5
+
+Function6.Name = "Function6"
+
+Function6.Parent = ScrollingFrame
+
+Function6.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function6.Position = UDim2.new(0.0397513807, 0, 0.466294974, 0)
+
+Function6.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function6.Font = Enum.Font.SourceSans
+
+Function6.Text = "Function6" --6
+
+Function6.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function6.TextSize = 14.000
+
+Function6.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_7.Parent = Function6
+
+Function7.Name = "Function7"
+
+Function7.Parent = ScrollingFrame
+
+Function7.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function7.Position = UDim2.new(0.0397513807, 0, 0.556096137, 0)
+
+Function7.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function7.Font = Enum.Font.SourceSans
+
+Function7.Text = "Function7"--7
+
+Function7.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function7.TextSize = 14.000
+
+Function7.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_8.Parent = Function7
+
+Function8.Name = "Function8"
+
+Function8.Parent = ScrollingFrame
+
+Function8.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function8.Position = UDim2.new(0.0397513807, 0, 0.644293666, 0)
+
+Function8.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function8.Font = Enum.Font.SourceSans
+
+Function8.Text = "Function8" --8
+
+Function8.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function8.TextSize = 14.000
+
+Function8.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_9.Parent = Function8
+
+Function9.Name = "Function9"
+
+Function9.Parent = ScrollingFrame
+
+Function9.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function9.Position = UDim2.new(0.0397513807, 0, 0.734094799, 0)
+
+Function9.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function9.Font = Enum.Font.SourceSans
+
+Function9.Text = "Function9" --9
+
+Function9.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function9.TextSize = 14.000
+
+Function9.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_10.Parent = Function9
+
+Function10.Name = "Function10"
+
+Function10.Parent = ScrollingFrame
+
+Function10.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+
+Function10.Position = UDim2.new(0.0397513807, 0, 0.823895931, 0)
+
+Function10.Size = UDim2.new(0.6324085, 0, 0.0735621452, 0)
+
+Function10.Font = Enum.Font.SourceSans
+
+Function10.Text = "Function10" --10
+
+Function10.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Function10.TextSize = 14.000
+
+Function10.MouseButton1Down:Connect(function()
+
+  --Loadstring here
+
+end)
+
+UICorner_11.Parent = Function10
+
+CredsDontRemove.Name = "CredsDontRemove" --dont remove or change the credits from the template
+
+CredsDontRemove.Parent = KrewTempOpen
+
+CredsDontRemove.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+CredsDontRemove.BackgroundTransparency = 1.000
+
+CredsDontRemove.Position = UDim2.new(0.311960489, 0, 0.16607289, 0)
+
+CredsDontRemove.Size = UDim2.new(0.392178982, 0, 0.0609364994, 0)
+
+CredsDontRemove.Font = Enum.Font.SourceSans
+
+CredsDontRemove.Text = "Template by $Krew (e.#3642)" --dont change this (leave my credits)
+
+CredsDontRemove.TextColor3 = Color3.fromRGB(120, 120, 120)
+
+CredsDontRemove.TextSize = 14.000
+
+Close.Name = "Close"
+
+Close.Parent = KrewTempOpen
+
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.BackgroundTransparency = 1.000
+
+Close.Position = UDim2.new(0.909142137, 0, 0.00320718414, 0)
+
+Close.Size = UDim2.new(0.0908579305, 0, 0.0801796019, 0)
+
+Close.Font = Enum.Font.SourceSans
+
+Close.Text = "▼" -- change if u dont want questionmarks
+
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.TextSize = 14.000
+
+TempByKrew.Name = "TempBy$Krew"
+
+TempByKrew.Parent = KrewTemplate
+
+TempByKrew.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+
+TempByKrew.Position = UDim2.new(0.567761779, 0, 0.979447246, 0)
+
+TempByKrew.Size = UDim2.new(0.214157432, 0, 0.0168804135, 0)
+
+TempByKrew.Visible = false
+
+TextButton.Parent = TempByKrew
+
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton.BackgroundTransparency = 1.000
+
+TextButton.Size = UDim2.new(0.935741007, 0, 0.96325624, 0)
+
+TextButton.Font = Enum.Font.SourceSans
+
+TextButton.Text = "    ►" -- change if u dont want questionmarks
+
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton.TextSize = 14.000
+
+TextButton.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts (dont touch):
+
+local function EEYCAWA_fake_script() -- Close.Script 
+
+	local script = Instance.new('Script', Close)
+
+	local frame = script.Parent.Parent.Parent["$KrewTempOpen"]
+
+	
+
+	
+
+	
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+		if frame.Visible == true then
+
+			frame.Visible = false
+
+			frame.Parent["TempBy$Krew"].Visible = true
+
+		end
+
+	end)
+
+end
+
+coroutine.wrap(EEYCAWA_fake_script)()
+
+local function VLRJSU_fake_script() -- KrewTempOpen.LocalScript 
+
+	local script = Instance.new('LocalScript', KrewTempOpen)
+
+	local UserInputService = game:GetService("UserInputService")
+
+	
+
+	local gui = script.Parent
+
+	
+
+	local dragging
+
+	local dragInput
+
+	local dragStart
+
+	local startPos
+
+	
+
+	local function update(input)
+
+		local delta = input.Position - dragStart
+
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+	end
+
+	
+
+	gui.InputBegan:Connect(function(input)
+
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+
+			dragging = true
+
+			dragStart = input.Position
+
+			startPos = gui.Position
+
+	
+
+			input.Changed:Connect(function()
+
+				if input.UserInputState == Enum.UserInputState.End then
+
+					dragging = false
+
+				end
+
+			end)
+
+		end
+
+	end)
+
+	
+
+	gui.InputChanged:Connect(function(input)
+
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+
+			dragInput = input
+
+		end
+
+	end)
+
+	
+
+	UserInputService.InputChanged:Connect(function(input)
+
+		if input == dragInput and dragging then
+
+			update(input)
+
+		end
+
+	end)
+
+	
+
+end
+
+game.StarterGui:SetCore("SendNotification",  {
+
+ Title = "Script is made by $Krew";
+
+ Text = "discord.gg/JPTv7JkG8g";
+
+ Icon = ""; -- dont touch this, if u want to add ur own notification just do this:
+
+ Duration = 5; made by william
+
+})
+
+coroutine.wrap(VLRJSU_fake_script)()
+
+local function RKEF_fake_script() -- TextButton.Script 
+
+	local script = Instance.new('Script', TextButton)
+
+	local frame = script.Parent.Parent.Parent["$KrewTempOpen"]
+
+	
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+		if frame.Visible == false then
+
+			frame.Visible = true
+
+			script.Parent.Parent.Parent["TempBy$Krew"].Visible = false
+
+		end
+
+	end)
+
+end
+
+coroutine.wrap(RKEF_fake_script)()
+
+local function XSRGC_fake_script() -- TempByKrew.LocalScript 
+
+	local script = Instance.new('LocalScript', TempByKrew)
+
+	local UserInputService = game:GetService("UserInputService")
+
+	
+
+	local gui = script.Parent
+
+	
+
+	local dragging
+
+	local dragInput
+
+	local dragStart
+
+	local startPos
+
+	
+
+	local function update(input)
+
+		local delta = input.Position - dragStart
+
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+	end
+
+	
+
+	gui.InputBegan:Connect(function(input)
+
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+
+			dragging = true
+
+			dragStart = input.Position
+
+			startPos = gui.Position
+
+	
+
+			input.Changed:Connect(function()
+
+				if input.UserInputState == Enum.UserInputState.End then
+
+					dragging = false
+
+				end
+
+			end)
+
+		end
+
+	end)
+
+	
+
+	gui.InputChanged:Connect(function(input)
+
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+
+			dragInput = input
+
+		end
+
+	end)
+
+	
+
+	UserInputService.InputChanged:Connect(function(input)
+
+		if input == dragInput and dragging then
+
+			update(input)
+
+		end
+
+	end)
+
+	
+
+end
+
+coroutine.wrap(XSRGC_fake_script)()
