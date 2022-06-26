@@ -1,0 +1,6 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("my own cool hub", "Midnight")
+
+--Tabs
+local Tab1 = Window:NewTab("TabName")
+losecal Section = Tab:NewSection("Section")
